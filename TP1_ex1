@@ -1,0 +1,8 @@
+nom = input()
+prénom = input()
+promotion = int(input())
+math = int(input())
+anglais = int(input())
+info =  int(input())
+moy = (math+anglais+info)/3
+print("Létudiant",prénom, nom, "de la promotion", promotion, "a une moyenne de", moy )
